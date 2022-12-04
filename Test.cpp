@@ -32,7 +32,7 @@ void test(bool isParameterized,  vector<size_t> text,  vector<size_t> pattern,  
         Algorithm<true> *algorithm = new Algorithm<true>(text.data(), text.size(), pattern.data(), pattern.size(), size_ab);
         algorithm->runAlgorithm(matchesAlgorithm);
     } else {
-        Algorithm<false> *algorithm = new Algorithm<false>(text.data(), text.size(), pattern.data(), pattern.size(), 4);
+        Algorithm<false> *algorithm = new Algorithm<false>(text.data(), text.size(), pattern.data(), pattern.size(), size_ab);
         algorithm->runAlgorithm(matchesAlgorithm);
     }
 
