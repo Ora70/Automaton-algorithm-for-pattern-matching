@@ -21,11 +21,11 @@ class Algorithm {
     bool compareAlgorithm(size_t j , size_t i);
 
 public:
-    Algorithm(size_t *text, size_t len_t, size_t *pattern, size_t len_p, int size_ab);
+    Algorithm(size_t *text, size_t len_t, size_t *pattern, size_t len_p, size_t size_ab);
     void runAlgorithm(vector<size_t> &matches);
 };
 
-template <bool parameterized> Algorithm<parameterized>::Algorithm(size_t *text, size_t len_t, size_t *pattern, size_t len_p, int size_ab) {
+template <bool parameterized> Algorithm<parameterized>::Algorithm(size_t *text, size_t len_t, size_t *pattern, size_t len_p, size_t size_ab) {
     this->pattern = pattern;
     this->text = text;
     this->len_p = len_p;

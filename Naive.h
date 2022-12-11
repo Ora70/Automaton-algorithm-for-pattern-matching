@@ -6,7 +6,7 @@
 #include <unordered_map>
 using namespace std;
 
-static bool naiveCompare(size_t *p_match, size_t *t_match, size_t p, size_t t, int size_ab) {
+static bool naiveCompare(size_t *p_match, size_t *t_match, size_t p, size_t t, size_t size_ab) {
     if (p_match[p] == size_ab+1 && t_match[t] == size_ab+1) {
         p_match[p] = t;
         t_match[t] = p;
