@@ -17,7 +17,7 @@ static bool naiveCompare(size_t *p_match, size_t *t_match, size_t p, size_t t, s
 }
 
 template<bool parameterized>
-static void naive(vector <size_t> &matches, size_t *text, size_t len_t, size_t *pattern, size_t len_p, int size_ab) {
+static void naive(vector <size_t> &matches, size_t *text, size_t len_t, size_t *pattern, size_t len_p, size_t size_ab) {
         //create arrays to match letters in text and pattern. need 2 to make sure different letters do not get the same match
         //only used in paramerterized
         std::vector<size_t> p_match(size_ab), t_match(size_ab);
