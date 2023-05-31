@@ -4,8 +4,10 @@ In this project we implement the naïve algorithm and the Automaton algorithm fo
 The program compares the running time of both algorithms and puts the results in a file.
 
 input:
+
 One argument which is the file path to a csv file with the running instructions:
 Every line in the file represents all the arguments for a single test:
+
 0.	Path to text
 1.	Path to pattern
 2.	Size of the alphabet
