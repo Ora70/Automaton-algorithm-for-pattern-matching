@@ -1,4 +1,4 @@
-# Automaton
+# Automaton algorithm for pattern matching
 
 In this project we implement the naïve algorithm and the Automaton algorithm for exact matching [1] and parameterized matching [2].
 The program compares the running time of both algorithms and puts the results in a file.
